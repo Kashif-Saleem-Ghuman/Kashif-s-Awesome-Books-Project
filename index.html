@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
- <script type="module" src="index.js" defer></script>
- <link rel="stylesheet" href="index.css">
- <title>Awsome Books</title>
+  <script type="module" src="index.js" defer></script>
+  <link rel="stylesheet" href="index.css">
+  <title>Awsome Books</title>
 </head>
+
 <body>
   <header>
     <nav class="nav-bar breadcrumb">
@@ -47,11 +49,20 @@
       <input type="submit" value="Add Book" class="btn btn-primary w-100 mt-2">
     </form>
   </div>
- 
+
 
   <footer>
     <span>Copyright..</span>
   </footer>
+
+  <script src="luxon.min.js"></script>
+  <script>
+    const DateTime = luxon.DateTime;
+    const dt = DateTime.local();
+    console.log(dt);
+    document.getElementById('date').textContent = dt.toJSDate();
+  </script>
+
 </body>
 
 </html>

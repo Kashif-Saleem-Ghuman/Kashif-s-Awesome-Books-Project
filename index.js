@@ -3,7 +3,7 @@ import UI from './modules/UI.js';
 import Store from './modules/Store.js';
 
 // Book Class : Represents a Book
-export default class Book {
+class Book {
   constructor(title, author) {
     this.title = title;
     this.author = author;
@@ -52,13 +52,10 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   // Remove book from Store
   Store.removeBook(e.target
     .parentElement.previousElementSibling.previousElementSibling.textContent);
-
-  // Show sucess message
-  UI.showAlert('Book Removed', 'success');
 });
 
 // Add date
-document.getElementById('date').innerText += `${new Date()}`;
+// document.getElementById('date').innerText += `${new Date()}`;
 
 // Add active link color
 
@@ -69,3 +66,7 @@ document.querySelectorAll('nav a')
       link.classList.add('active');
     }
   });
+
+// const output = document.getElementById('date');
+
+// output.textContent = DateTime.now().toJSDate();
