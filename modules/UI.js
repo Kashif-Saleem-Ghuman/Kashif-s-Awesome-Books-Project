@@ -1,5 +1,7 @@
 /* eslint-disable linebreak-style */
 // UI Class: Handle UI Tasks
+import Store from './Store.js';
+
 export default class UI {
   static displayBooks() {
     const StoredBooks = Store.getbooks();
