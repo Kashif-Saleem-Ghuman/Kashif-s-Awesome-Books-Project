@@ -1,0 +1,83 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 5vw;
+  margin: 2vw;
+  align-items: center;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 5vw;
+  list-style: none;
+  cursor: pointer;
+}
+
+a:is(:link, :active, :visited).active {
+  color: rgb(245, 245, 245);
+  background-color: rgb(0, 0, 0);
+  transform: scale(2);
+}
+
+#date {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2vw;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(36, 37, 43);
+  width: 100vw;
+  height: 4rem;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vw;
+}
+
+.para {
+  display: flex;
+  align-items: center;
+  margin-top: 5vw;
+  flex-direction: column;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: auto auto auto;
+}
+
+#one {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#two {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#three {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}

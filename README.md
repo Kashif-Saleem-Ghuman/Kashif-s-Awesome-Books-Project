@@ -181,7 +181,7 @@ Give a ⭐️ if you like this project!
 
 [Bootsrtap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 
-[Bootswatch]https://bootswatch.com/
+[Bootswatch](https://bootswatch.com/)
 
 [Luxon](https://imdac.github.io/modules/js/luxon/)
 
