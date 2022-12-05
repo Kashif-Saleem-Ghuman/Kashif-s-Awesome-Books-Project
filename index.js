@@ -1,8 +1,6 @@
 /* eslint-disable linebreak-style */
-import UI from "/modules/UI.js";
-import Store from "/modules/Store.js";
-
-
+import UI from './modules/UI.js';
+import Store from './modules/Store.js';
 
 // Book Class : Represents a Book
 export default class Book {
@@ -71,4 +69,3 @@ document.querySelectorAll('nav a')
       link.classList.add('active');
     }
   });
- 
