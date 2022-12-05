@@ -54,9 +54,6 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
     .parentElement.previousElementSibling.previousElementSibling.textContent);
 });
 
-// Add date
-// document.getElementById('date').innerText += `${new Date()}`;
-
 // Add active link color
 
 const activePage = window.location.pathname;
@@ -66,7 +63,3 @@ document.querySelectorAll('nav a')
       link.classList.add('active');
     }
   });
-
-// const output = document.getElementById('date');
-
-// output.textContent = DateTime.now().toJSDate();
