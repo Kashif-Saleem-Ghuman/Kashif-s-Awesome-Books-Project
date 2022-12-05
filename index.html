@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
+ <script type="module" src="index.js" defer></script>
+ <link rel="stylesheet" href="index.css">
+ <title>Awsome Books</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-bar breadcrumb">
+      <h2>Awsome Books</h2>
+      <ul>
+        <li><a href="List.html">List</a></li>
+        <li><a href="index.html">Add New</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <span id="date"></span>
+
+  <div class="container mt-4">
+    <h1 class="display-4 text-center">Awsome Books</h1>
+
+    <table class="table table-striped mb-5" style="display: none ;">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+
+    <form id="book-form">
+      <div class="form-group">
+        <input placeholder="Title" type="text" id="title" class="form-control">
+      </div>
+      <div class="form-group">
+        <input placeholder="Auhor" type="text" id="author" class="form-control mt-2">
+      </div>
+      <input type="submit" value="Add Book" class="btn btn-primary w-100 mt-2">
+    </form>
+  </div>
+ 
+
+  <footer>
+    <span>Copyright..</span>
+  </footer>
+</body>
+
+</html>
