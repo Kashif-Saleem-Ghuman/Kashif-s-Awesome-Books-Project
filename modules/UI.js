@@ -1,5 +1,6 @@
+/* eslint-disable linebreak-style */
 // UI Class: Handle UI Tasks
-class UI {
+export default class UI {
   static displayBooks() {
     const StoredBooks = Store.getbooks();
 

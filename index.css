@@ -27,7 +27,7 @@
 a:is(:link, :active, :visited).active {
   color: rgb(245, 245, 245);
   background-color: rgb(0, 0, 0);
-  transform: scale(2)
+  transform: scale(2);
 }
 
 #date {
