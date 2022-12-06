@@ -136,7 +136,7 @@ Clone this repository to your desired folder:
 <!-- Author -->
 
 ## 👤**Authors** <a name="authors"></a>
-<h4>Lucas Erkana</h4>
+<h4>Kashif Saleem</h4>
 
 - GitHub: [@githubhandle](https://github.com/Kashif-Saleem-Ghuman)
 - Twitter: [@twitterhandle](https://twitter.com/Kashif14Saleem)
